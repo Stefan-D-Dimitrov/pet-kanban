@@ -22,7 +22,6 @@ namespace Kan.Api
                 app.UseSwaggerUI();
             }
 
-            var test = default(long);
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
